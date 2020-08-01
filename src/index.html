@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Thomas Sapp">
+    <meta name="description" content="This is a site to allow you to convert pounds to other common weights.">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Weight Converter</title>
+    <script src="https://kit.fontawesome.com/1c6a26b368.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="canonical" href="https://www.thomassapp.com/WeightConverter">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body class="bg-dark text-light">
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="display-4 text-center mb-3"><i class="fas fa-balance-scale text-secondary"></i> Weight Converter</h1>
+                <form>
+                    <div class="form-group">
+                        <input id="weightInput" type="number" min="1" class="form-control form-control-lg" placeholder="Enter Pounds...">
+                    </div>
+                </form>
+                <div id="output">
+                    <div class="card bg-primary mb-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Metric Tons:</h5>
+                            <div id="tOutput" class="card-text"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-secondary mb-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Kilograms:</h5>
+                            <div id="kgOutput" class="card-text"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-success mb-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Grams:</h5>
+                            <div id="gOutput" class="card-text"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-danger mb-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Milligrams:</h5>
+                            <div id="mgOutput" class="card-text"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-warning text-dark mb-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Mirograms:</h5>
+                            <div id="mcgOutput" class="card-text"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-info mb-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Stones:</h5>
+                            <div id="stOutput" class="card-text"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-light text-dark mb-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Ounces:</h5>
+                            <div id="ozOutput" class="card-text"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center">
+        The code for this page can be found on <a href="https://github.com/tpsapp/WeightConverter">GitHub</a>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
