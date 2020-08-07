@@ -2,7 +2,7 @@
 
 // UI Class: Provides helper functions for accessing and controlling the UI.
 // UI.initialize = Initializes the controls on the UI to their default values.
-// UI.convertWeight = Converts the inputed number of punds to the various other weight measurements.
+// UI.convertWeight = Converts the inputed number of pounds to the various other weight measurements.
 class UI {
     static initalize() {
         // Initalize the weight input value to an empty string
